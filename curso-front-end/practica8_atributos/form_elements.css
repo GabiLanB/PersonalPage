@@ -1,0 +1,48 @@
+html{
+	background-image: url("table.jpg");
+	background-repeat: repeat;
+}
+table, tr, td {
+	text-align: left;
+}
+
+table{
+	margin: 50px;
+	background-color: #CCCCCC;
+	border-collapse: collapse;
+	border-bottom-right-radius: 90px;
+	box-shadow: white -3px -3px 1px;
+}
+table:hover{
+	box-shadow: white -8px -8px 1px;
+}
+.all{
+	height: 350px;
+}
+input[type]{
+	border-radius: 10px;
+}
+input[type]:hover{
+	box-shadow: #666 2px 2px 1px;
+}
+caption{
+	font-family: Arial Black;
+	font-size: 25px;
+	text-shadow: white 3px 3px 2px;
+}
+td{
+	padding: 20px;
+}
+td#left{
+	text-align: left;
+	
+}
+fieldset{
+	border-radius: 20px;
+}
+
+@media(min-width : 1200px){
+	table{
+		margin: 20px auto;
+	}
+}

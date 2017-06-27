@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('robotobold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+/* CSS reset */
+*{ 
+	margin:0;
+	padding:0;
+}
+fieldset,img { 
+	border:0;
+}
+ol,ul {
+	list-style:none;
+}
+/* General Demo Style */
+body{
+	font-family: "robotobold", Georgia, serif;
+	background: #000;
+	font-weight: 400;
+	font-size: 15px;
+	color: #aa3e03;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.ie7 body{
+	overflow:hidden;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	text-align: center;
+	margin-top: 10vh;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 30px 30px 10px 20px;
+	margin: 30px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: left;
+}
+.container > header h1{
+	font-family:'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 3px 3px 1px #8f0222;
+    padding: 0px 0px 5px 0px;
+}
+.container > header h2{
+	font-size: 42px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: black 2px 2px 1px;
+	transition: 0.2s linear;
+}
+.container > header h2:hover{
+	transform: translateX(4px);
+	transition: 0.5s linear;
+	cursor: pointer;
+	text-shadow: black 6px 6px 1px;
+	
+}
+/* Header Style */
+
+.practicas a:hover{
+	color: #fff;
+}
+.practicas span.right{
+	float: right;
+}
+.practicas span.right a{
+	float: none;
+	display: inline;
+}
+
+p.practicas{
+	display: block;
+	padding: 30px 0px;
+	padding-right: 25vw;
+}
+p.practicas a,
+p.practicas a.practicas,
+p.practicas a.practicas:hover{
+    display: inline-block;
+	border: 0px solid #6d0019;
+	padding: 4px 10px 3px;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 10px 5px;
+	font-weight: 800;
+	box-shadow: 1px 1px 1px white;
+	color:#fff;
+	border-radius: 5px;
+	background: #a90329;
+	background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+}
+p.practicas a:hover{
+	background: #6d0019;
+	box-shadow: white 3px 3px 2px;
+}
+p.practicas a:active{
+	background: #6d0019;
+	background: linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+	p.practicas {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
+/*******************tooltip****************/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/********************* End ********************/

@@ -1,0 +1,208 @@
+html, body{
+    width: 100%;
+    min-height: 100%;
+}
+html, body, header,nav, section, aside, footer{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+body{
+    color: #666666;
+}
+header{
+    width: 100%;
+    height: 20%;
+    min-height: 56px;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
+nav{
+    background-color: #cccccc;
+    color: #666;
+    width: 100%;
+    min-width: 750px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 200px;
+    height: 46px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+section{
+    width: 65%;
+    min-width: 600px;
+    height: 40%;
+    min-height: 530px;
+    float: left;
+    padding: 20px;
+}
+aside{
+    width: 35%;
+    min-width: 300px;
+    height: 100%;
+    min-height: 530px;
+    background-color: #cccccc;
+    color: white;
+    float: left;
+    clear: right;
+    margin-top: 20px;
+    text-align: center;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 10%;
+    min-height: 25px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding-right: 30px;
+    text-align: right;
+}
+h1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+}
+h2{
+    font-size:16px;
+}
+/************************* ELEMENTS *******************/
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:visited{
+    color: #666;
+}
+
+span.autor{
+    text-align: left;
+    margin-left: 15px;   
+}
+span.grande{
+   float:left;
+   color:black;
+   background:white;
+   border:1px solid #999999;
+   font-size:80px;
+   line-height:60px;
+   padding:2px;
+   font-family:times;
+   margin-right: 5px;
+}
+p{
+   text-align: justify;
+}
+/*****************************HEADER*********************/
+header img{
+    margin: 0 10px;
+}
+header img#bbva{
+    height: 40px;
+}
+header td#tdcenter:hover{
+    transition: all ease-in-out 1.5s;
+    transform: translateX(-50px);
+    width: 10%;
+    border-radius: 50px;
+    box-shadow: #E0EEE0 20px 20px 50px;
+    opacity: 0;
+}
+header table td{
+    width: 33%;
+    min-width: 300px;
+    vertical-align: middle;
+    text-align: center;
+}
+header table td#tdcenter{
+    font-size: 2.5em;
+    font-family: "roboto", sans-serif;
+    text-shadow: #CCCCCC 2px 2px 1px;
+}
+header td img#sposor{
+        max-height: 40px;
+    }
+/*************************TABLE ************************/
+table,tr, td{
+    border: 0px;
+    border-collapse: collapse;
+}
+/************************ FONTS ************************/
+@font-face{
+    font-family: "roboto";
+    src: url(../res/fon/roboto.ttf)
+}
+@font-face{
+    font-family: "oswald";
+    src: url(../res/fon/oswald.ttf)
+}
+
+ /******************Drop Down Menu************/
+ nav ul, nav li{
+     margin: 0;
+     padding: 4px 0 4px 4px;
+     list-style: none;
+     cursor: pointer;
+ }
+ nav li.menucontent{
+     position: relative;
+     width: 100px;
+     height: 19px;
+     display: inline-block;
+ }
+nav .menuobtion{
+     width: 100%;
+     /*border-bottom: 1px solid white;*/
+     display: inline-block;   
+     height: 20px;
+     padding-top: 5px;
+     padding-bottom: 0px;
+ }
+ nav ul.dropmenu{
+     display: none;
+     position: absolute;
+     width: 100%;
+ }
+ nav li.menucontent:hover ul.dropmenu{
+     display: block;
+     /*background-color: white;*/
+     background-color: #cccccc;
+ }
+ nav li:hover{
+     /*background-color: white;*/
+     box-shadow: white -2px 3px 2px; 
+     padding-left: 0px;
+ }
+/************************* Contact me************************/
+div#leftdiv{
+    float: left;
+}
+div#contact{
+    float: right;
+    width: 230px;
+    position: absolute;
+    right: -185px;
+    transition: 1.5s ease-in-out;
+}
+div#contact div{
+    display: inline-block;
+    
+}
+nav div img{
+    height: 40px;
+    
+}
+div#contact:hover{
+    right: 0;
+}
+/*div#contact:hover div img:hover{
+    filter:drop-shadow (2px 2px 3px #000);
+    -web-kit-filter:drop-shadow (2px 2px 3px #000);
+}*/

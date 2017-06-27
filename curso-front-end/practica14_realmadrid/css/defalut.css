@@ -1,0 +1,80 @@
+/**************************SECTION**********************/
+header div, aside div{
+    text-align: left;
+}
+section div#div1 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.autor{
+    font-weight: bold;
+}
+section table{
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+section table, tr, td{
+    border: 0px solid black;
+    padding: 15px;
+    /*text-align: center;*/
+}
+section table td{
+    width: 50px;
+    min-width: 100px;
+    vertical-align: top;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+section table div{
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    min-width: 297.5px;
+    min-height: 200px;
+    border: 1px solid #CCCCCC;
+}
+section table div img{
+    width: 394px;
+    border-top: 2px solid #0000EE;
+    margin: 0px;
+}
+section table p{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #CCCCCC;
+    font-family: sans-serif;
+}
+section table h2{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-weight: bold;
+}
+section table div img:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+section table div:hover{
+    box-shadow: #CCCCCC 2px 2px 2px;    
+    cursor: pointer;
+}
+
+/***************************ASIDE**********************/
+aside img{
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    border-top: 2px solid #0000EE;
+    margin-bottom: 15px;
+    background-color: white;
+}
+aside p{
+    background-color: white;
+    color:#666666;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;
+ }
+
+    

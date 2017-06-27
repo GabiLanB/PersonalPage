@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background-color: rgb(110 110 110);
+	min-height: 110%;
+	min-width: 100%;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+body{
+	text-align: center;
+	background-image: url("code.jpg");
+	background-size: cover;
+	min-width: 500px;
+	min-height: 110%;
+	margin: 0 auto;
+}
+header#topheader{
+	margin: 0px auto;
+	text-align: center;
+	height: 40px;
+	padding: 20px;
+	background-color: #000000;
+	color: #CCCCCC;
+	font: bold 30px tahoma, Time New Roman;
+	text-shadow: 2px 2px 2px white;
+}
+h1 {
+	font: bold 20px verdana, sans-serif;
+} 
+h2 {
+	font: bold 14px verdana, sans-serif;
+}
+section#section {
+	min-width: 300px;
+	width: 60%;
+	margin: 15px auto 15px 20px;
+	text-align: left;
+	min-height: 100%;
+	/*border: 3px solid #70AD24;*/
+	overflow: auto;
+	float: left;
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px;
+}
+nav#menu {
+	background: #CCCCCC;
+	padding: 5px 15px;
+} 
+nav#menu li {
+	width: 100px;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+nav#menu li:hover{
+	background-color: white;
+}
+footer#downfooter{
+	position:fixed;
+   text-align: right;
+   padding: 8px;
+   right:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+   background:#CCCCCC;
+   font: bold 12px verdana, sans-serif;
+   clear: both;
+}
+p{
+	text-align: justify;
+opacity: 1;
+}
+aside{
+	width: 20%;
+	margin: 15px auto;
+	float: right;
+	min-height: 100%;
+	text-align: left;
+}
+aside p{
+	background-color: #CCCCCC;
+	padding: 15px;
+	border-radius: 20px;
+	font: 14px tahoma, sans-serif;
+	margin-right: 20px;
+	
+}
+figure#webdesign img{
+	width: 80%;
+}
+figure#earth img{
+	width: 200px;
+	float: right;
+}
+
+

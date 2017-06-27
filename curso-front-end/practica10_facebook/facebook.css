@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	width: 100%;
+	height: 100%;
+	min-height: 668px;
+	min-width: 450px;
+}
+body  {  
+	/*background-image: url("img/fons.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;*/
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;  
+	font-size: 11px;  
+    color: #333333; 
+ }  
+table{
+	min-height: 100%;
+	min-width: 100%;
+	border-collapse: collapse;
+}
+tr#ariba{
+	background-color: #3b5998;
+	height: 83px;
+	color: white;
+}
+tr#abajo{
+	min-width: 100%;
+	height: 580px;
+	min-height: 100%;
+	background: linear-gradient(#fefcff, #d9dceb);/* For Firefox 3.6 to 15 */
+
+}
+td#aribaisquierda{
+	width: 55%;
+	font-family: helvetical, arial, sans-serif;
+	/*font-style: italic;*/
+	font-size: 48px;
+	font-weight: bold;
+	padding-left: 170px;
+	padding-top: 10px;
+	color: white; 
+}
+td a#facebook{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+td.aribaderecha{
+	width: 15%;
+	font-size: 12px;
+}
+fieldset{
+	border: 0px solid;
+}
+span.gris{
+	color: lightgrey;
+	font-size: 11px;
+}
+span#gris2{
+	margin-left: 10px;
+}
+
+figure#cover{
+	font-family: helvetica, arial, sans-self;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29px;
+	word-spacing: -1px;
+	color: #0E385F;
+	text-align: right;
+	/*margin: 30px 30px auto auto;
+	padding-top: 30px;
+	padding-right: 30px;*/
+}
+td#abajoisquierda{
+	padding: 20px 30px 233px 150px;
+}
+input#enterbuton{
+	margin-left: 0px;
+	background-color: #5B74A8;
+	background-position: 0px -49px;
+	background-repeat: no-repeat;
+	font-family: helvetica, arial, sans-self;
+	padding: 1px 6px 2px 6px;
+	height: 16px;
+	/*width: 35px;*/
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 12px;
+	text-align: center;
+	white-space: nowrap;
+	word-spacing: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+	border-top: 1px solid #29447E;
+	border-right: 1px solid #29447E;
+	border-bottom: 1px solid #1A356E;
+	border-left: 1px solid #29447E;
+}
+input[type="checkbox"]{
+	/*margin: 2px 0px 5px 10px;
+	margin-top: 2px;*/
+	margin-left: 10px;
+	margin-right: 0px;
+	/*vertical-align: top;*/
+}
+
+input.upbox, inputupbox{
+	margin: 5px 10px;
+}
+span.alignleft10{
+	padding-left: 10px;
+}
+p#textfoto{
+	margin-right: 80px;
+}
+td#abajoderecha{
+	padding-left: 15px; 
+	padding-top: 20px;
+	text-align: left;
+	vertical-align: text-top;
+}
+td p#registrarte{
+	font-family: helvetica, arial, sans-self;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 48.24px;
+	word-spacing: 0px;
+	color: #333333;
+}
+td p.h2reg{
+	font-family: helvetica, arial, sans-self;
+	font-size: 19px;
+	font-weight: normal;
+	line-height: 25.46px;
+	word-spacing: 0px;
+	color: #141823;
+}
+span.minimo{
+	text-size: 5px;
+	color: #71757e;
+}
+span a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #3B5998;
+}
+input#leftpad{
+	margin-left: 10px;
+}
+input[type="email"].mail,input[type="password"].mail {
+	font-size: 18px;
+	font-weight: normal;
+	width: 377px;
+	height: 21px;
+	border: 1px solid #bdc7d8;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+}
+input[type="text"].nombre{
+	font-size: 18px;
+	font-weight: normal;
+	width: 170px;
+	height: 21px;
+	border: 1px solid #bdc7d8;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+}
+input#terminado{
+	background: linear-gradient(#3B6E33, #2C5115);
+	height: 39px;
+	width: 194px;
+	font-family: 'Freight Sans Bold',helvetica, arial, sans-self;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 19px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	word-spacing: 0px;
+	/*padding: 7px 20px 10px 7px;*/
+	min-width: 194px;
+	border-radius: 5px;	
+	cursor: pointer;
+	border-top: 1px solid #3B6E33;
+	border-right: 1px solid #3B6E33;
+	border-bottom: 1px solid #2C5115;
+	border-left: 1px solid #3B6E33;
+}
+.pass{
+	margin: 0;
+}
+input.sexo{
+	font-size: 12px;
+	line-height: 18px;
+	vertical-align: bottom;
+	word-spacing: 0px;
+	padding: 0 10pz 0 3px;
+	cursor: pointer;
+	color: #141823;
+}
+.select{
+	font-size: 12px;
+	line-height: 15px;
+	white-space: nowrap;
+	word-spacing: 0px;
+	height: 30px;
+	width: 56px;
+	padding: 5px;
+	cursor: default;
+	overflow: -moz-hidden-unscrollable;
+}
+span#sexominim{
+	vertical-align: top;
+}

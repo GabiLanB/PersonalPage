@@ -1,0 +1,38 @@
+body{
+	background-color: burlywood;
+}
+caption{
+	font-size: 30px;
+	font-weight:bold;
+	text-shadow: #ccccff 3px 3px 3px;
+}
+
+table{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: Tahoma, Verdana;
+}
+tr, tfoot{
+	border: 5px solid #FFFFFF;
+	border-collapse: collapse;
+}
+th, tfoot {
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 25px;
+}
+td{
+	text-align: left;
+}
+tr.color{
+	background-color: #ccccff;
+}
+td:hover{
+	text-shadow: black 2px 2px 2px; 
+	background-color: red;
+}
+th:hover{
+	text-shadow: #ccccff 2px 2px 2px; 
+	background-color: blue;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Simulacion facebook</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="facebook.css"/>
+		<meta name="description" content="facebook copy"/>
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript"/>
+		<meta name="author" content="igabidev"/>
+	</head>
+	<body>
+		<table>	
+			<tr id="ariba">
+				<td id="aribaisquierda">
+					<a id="facebook" href="https://es-la.facebook.com/">facebook</a>
+				</td>
+				<td class="aribaderecha">
+					<form action="get">
+						<fieldset  class="all">
+							<span class="alignleft10">Correo electrónico o telefono</span><br>
+							<input class="upbox" type="text" name="userid"><br>
+							<input type="checkbox" checked=""><span class="gris"> No cerrar session</span>
+					</form>
+				</td>
+				<td class="aribaderecha">
+					<form action="get">
+						<fieldset  class="all">
+							<span class="alignleft10">Contraseña</span><br>
+							<input class="upbox" type="password" name="psw"><br>
+							<span id="gris2" class="gris">¿Has olvidado tu contraseña?</span>
+					</form>
+				</td>
+				<td class="aribaderecha">
+					<form>
+						<input id="enterbuton" type="submit" name="ENTRAR" onclick="alert('Muy bien Gabriel!')"value="Entrar">
+					</form>
+				</td>
+			</tr>
+			<tr id="abajo">
+				<td id="abajoisquierda">
+					
+					<figure id="cover">
+					<p id="textfoto">Facebook te ayuda a comunicarte y compartir<br>
+					con las personas que forman parte de tu vida.</p>
+					<img src="img/cover.png" alt="image">
+					</figure>
+				</td>
+				<td id="abajoderecha" colspan="3">
+					<p id="registrarte">Registrarte</p>
+					<p class="h2reg">Es gratis y lo será para siempre.</p><br>
+					<form action="get">
+						<fieldset  class="datosreg">
+							<input  class="nombre" type="text" name="nombre" placeholder="Nombre">
+							<input id="leftpad" class="nombre" type="text" name="apellidos" placeholder="Apellidos"><br><br>
+							<input class="mail" type="email" name="mail" placeholder="Correo electrónico o número de móbil"><br><br>
+							<input class="mail" type="email" name="mail" placeholder="Vuelve a introducir el correo electrónico o el..."><br><br>
+							<input class="mail pass" type="password" name="psw" placeholder="Contraseña nueva"><br><br>
+							<p class="h2reg">Fecha de nacimiento</p><br>
+							
+								<select class="select" name="dia">
+									<option value="dia">Día</option></select>
+								<select class="select" name="dia">
+									<option value="dia">Mes</option></select>
+								<select class="select" name="dia">
+									<option value="dia">Año</option></select>
+								<span id="sexominim" class="minimo"><a class="minimblue" href="https://www.facebook.com/about/privacy/">¿Por qué tento que dar mi fecha de nacimiento?</a></span><br><br>
+								<input class="sexo" type="radio" name="gender" value="female"> Female
+								<input class="sexo" type="radio" name="gender" value="male"> Male<br><br>
+							
+							<span class="minimo"> Al hacer click en Terminado, aceptas las <a href="https://www.facebook.com/about/privacy/">Condiciones</a> y confirmas
+							que has lleido nuestra<br> <a class="minimblue" href="https://www.facebook.com/about/privacy/">Politica de datos</a>, incluido el <a class="minimblue" href="https://www.facebook.com/about/privacy/">Uso de cookies.</a><br><br>
+						<input id="terminado" type="submit" name="ENTRAR" onclick="alert('Datos erronados!!!')" value="Terminado">
+					</form>
+					
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

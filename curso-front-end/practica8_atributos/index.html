@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>FORM ELEMENTS</title>
+		<link rel="stylesheet" href="form_elements.css" media="screen">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+	<body>
+	
+		<form action="demo" method="get"><table>
+			<caption>Agrupation de un formulario dentro de una tabla</caption>
+			<tr>
+				<td><fieldset  class="all">
+					<legend>Personal information</legend>
+					<label>First name </label><br><input type="text" name="firstname"><br>
+					<label>Last name</label><br><input type="text" name="firstname"><br>
+					<label>Age</label><br> <input type="number" name="firstname"><br>
+					<label>E-mail</label><br><input type="email" name="mail"><br>
+					<label>Sex</label><br><input type="radio" name="gender" value="male" checked> Male<br>
+						<input type="radio" name="gender" value="female" checked> Female<br>
+						<input type="radio" name="gender" value="other" checked> Other><br>
+					<label>CV</label><input type="file"><br></fieldset></td>
+				<td><fieldset class="all"><legend>Other information</legend>
+					<label>Interests</label><br>
+						<input type="checkbox">Math<br>
+						<input type="checkbox">Phizics<br>
+						<input type="checkbox">Poems<br>
+						<input type="checkbox">Astrology<br>
+						<input type="checkbox">Desighn<br>
+				</fieldset></td>
+			</tr>
+			<tr>
+				<td colspan="2" id="left"><fieldset><legend>Register</legend>
+					<label>Acuerdos</label><br><input type="radio" name="licence">I agree<br>
+					<input type="radio" name="licence">I not agree<br>
+					<input type="submit" onclick="alert('Sended!')" value="Send">
+					<input type="reset" value="Reset">
+				</td></fieldset>
+			</tr>
+		</table></form>
+	</body>
+</html>

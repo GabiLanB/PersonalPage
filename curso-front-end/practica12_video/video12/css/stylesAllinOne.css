@@ -1,0 +1,102 @@
+/* 
+    Created on : Feb 16, 2016, 02:26:04 AM
+    Author     : iGabiDev
+*/
+html, body, header, footer, section, nav, div, img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    width: 80%;
+    margin: 0px auto;
+    min-height: 100%;
+    font-family: 'roboto', serif;
+    color: #767676;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    /*position: fixed;*/
+    clear: both;
+    text-shadow: black 1px 2px 1px;
+ }
+section{
+    width: 660px;
+    margin: 5px;
+    float: left;
+    padding: 5px;
+    background-color: white;
+}
+aside{
+    width: 380px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+/********************design**************/
+@font-face {
+    font-family: roboto;
+    src: url("../res/font/robotoregular.ttf")
+}
+section div{
+    padding: 5px;
+}
+div#headiv img{
+    float: left;
+    margin-left: 2em;
+}
+header p{
+    margin-left: 2em;
+    float:left;
+    clear: right;
+    font-size: 1.5em;
+}
+aside p{
+    margin-left: 5px;
+	float: left; 
+	clear: right;
+}
+aside span{
+    text-shadow: #767676 1px 1px 1px;
+}
+div#vgran{
+    width: 640px;
+}
+div#pic img{
+    width: 640px;   
+}
+aside video{
+   margin: 5px;
+   float: left;
+}
+span.black{
+    color: #000;
+}
+span.red{
+    color: #ff0000;
+}
+span.blue{
+    color: darkblue;
+}
+footer{
+	text-align: right;
+	clear: both;
+	width: 100%;
+	height: 15px;
+	margin-bottom: 0px;
+	background-color: white;
+}
+hr{
+	display: block;
+	float: left;
+	clear: both;
+}
+
+

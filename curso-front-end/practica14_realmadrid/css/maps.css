@@ -1,0 +1,53 @@
+section{
+    text-align: center;
+    width: 100%;
+}
+
+iframe{
+    box-shadow: #666 5px 5px 5px;
+    display: block;
+    width: 1000px;
+    min-width: 350px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+ }
+h1{
+    margin: 0 auto;
+    text-shadow: #666 2px 2px 2px;
+    background-color: #E6E6E6;
+}
+h1:hover{
+    cursor: pointer;
+    color: #666;
+    text-shadow: #CCC 2px 2px 2px;
+}
+iframe:hover{
+    z-index: 1;
+}
+div{
+    border: 1px solid black;
+    width: 355px;
+    position: relative;
+}
+div#study{
+    top: 30px;
+    left: 30px;
+}
+div#work{
+    top: -205px;
+    left: 185px;
+}
+div#sweethome{
+    top: -405px;
+    left: 385px;
+}
+div:hover{
+    z-index: 1;
+}
+/****************************chilhoodplace**********************/
+section#studypalce{
+    text-align: center;
+}
+/****************************studyplace**********************/
+/****************************workplace**********************/

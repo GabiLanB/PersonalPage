@@ -1,0 +1,50 @@
+body{
+	background-image: url("imagenes/bgmk.png");
+    background-repeat:repeat;
+	font-family: Times New Roman, Arial;
+	font-size: 20px;}
+header{
+	margin: 10px 1% 10px 10px;
+	background-image: url("imagenes/headermk.png");
+    background-repeat:no-repeat;
+	height: 223px;
+}
+caption{
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+}
+tr{
+	padding: 8px;
+	border: 2px solid #FFFFFF;
+}
+img{
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	width:800px;
+	height: 445px;
+	background-color: #CC0000;
+	text-align: center;
+	border-collapse: collapse;
+}
+span.linia{
+    text-decoration: line-through;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+footer{
+	text-align: right;
+	margin-right: 10%;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+span#igabi{color:#FFFFFF;}
+a:hover {
+	font-weight: bold;
+}

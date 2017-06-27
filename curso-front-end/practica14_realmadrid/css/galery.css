@@ -1,0 +1,58 @@
+
+/***************************SECTION galery*************************/
+section table{
+    width: 80%;
+    min-width: 600px;
+    height: 100%;
+    margin: 15px auto;
+}
+section td{
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    width: 100%;
+    min-width: 600px;
+    padding: 5px;
+}
+section td.up{
+    height: 300px;
+    min-height: 300px;
+    width: 33%;
+    min-width: 200px;
+    padding: 0px;
+}
+td.up div{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+td.up div img{
+    border-top: 2px solid #0000EE;
+    width: 240px;
+    height: 240px;
+}
+td.up div img:hover{
+    width: 300px;
+    height: 290px;
+    cursor: pointer;
+}
+td h1{
+    text-align: center;
+    text-shadow: #666 1px 2px 1px;
+}
+section td div.divimg img{
+    height: 480px;
+    padding: 0px;
+    margin: 5px auto;
+    box-shadow: #666 5px 5px 5px;
+}
+section td div.divimg{
+    max-height: 480px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow-x: auto;
+    overflow-x: scroll;
+}

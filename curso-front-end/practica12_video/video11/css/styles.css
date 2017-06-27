@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background-image: url("../res/img/muscpattern.jpg")
+}
+body{
+	width: 80%;
+	margin: 0px auto;
+	color: white;
+}
+caption{
+	font-family: Comic Sans Ms, arial;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 10px auto;
+	text-shadow: #0B0B61 2px 2px 2px;
+}
+table{
+	margin: 0px auto;
+	border: 0px;
+}
+video{
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px white;
+}
+
+td{
+	width: 60px;
+	padding: 10px;
+	font-weight: bold;
+	font-family: tahoma;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #8A0808;
+	color: #0B0B61;
+	text-shadow: white 1px 1px 2px;
+	text-align: center;
+}
+td.video{
+	padding: 0px;
+}
+#table1{
+	float: left;
+	margin: 30px auto;
+}
+#table2{
+	float: left;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+td img{
+	height: 30px;
+}
+footer{
+	text-align: right;
+	margin-bottom: 10px;
+	clear: both;
+}
+

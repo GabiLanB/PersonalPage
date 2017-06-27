@@ -1,0 +1,103 @@
+/* 
+    Created on : 29-feb-2016, 9:56:00
+    Author     : Gabriel
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: ease-in-out 1s;
+}
+body{
+     margin: 2vw;
+    background-color: #ff6633;
+}
+h1{
+     margin: 2vw;
+    color:red;
+    text-shadow: blue 2px 2px 2px;
+    padding: 20px;
+}
+h2{
+     margin: 2vw;
+    color: blue;
+    text-shadow: white 2px 2px 2px;
+}
+p{
+     margin: 2vw;;
+     text-align: justify; 
+     padding: 1vw;
+     border-top: white 2px solid ;
+}
+span.title{
+    font-family: tahoma;
+    font-weight: bold;
+    text-decoration: underline;
+    color:honeydew;
+    text-shadow: blue 2px 2px 1px;
+}
+div.column img{
+    display: none;
+}
+@media(min-width : 600px){
+    div.column{
+        column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 40px;
+        -moz-column-gap: 40px;
+        -webkit-column-gap: 40px;
+        column-rule: 5px double blue;
+        -moz-column-rule: 5px double blue;
+        -webkit-column-rule: 5px double blue;
+        background-color: #ff0033;
+    }
+    body{
+        background-color: tomato;
+    }
+    h1{
+        background-color: #ff3366;
+    }
+    p{
+        box-shadow: white 0 0 2px;
+        border: none;
+        background-color: white;
+    }
+    span.title{
+        color:#ff0033;
+    }
+}
+@media(min-width : 1000px){
+    div.column{
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+        -moz-column-gap: 40px;
+        -webkit-column-gap: 40px;
+        column-gap: 40px;
+        -moz-column-rule: 0px dotted blue;
+        -webkit-column-rule: 0px dotted blue;
+        -moz-column-break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        column-rule: 0px dotted blue;
+        box-shadow: chartreuse 0 0 3px;
+        background-color: gainsboro;
+        padding: 1vw;
+        opacity: 0.9;
+        color: white;
+        text-shadow: black 1px 1px 1px;
+      
+    }
+    body{
+        background-color: #ff0033;
+    }
+    p{
+        background-color: tomato;
+    }
+    div.column img{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0.5vw;
+    }
+}
